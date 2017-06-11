@@ -6,5 +6,11 @@
   </head>
   <body>
     <h1>Hello Coursera</h1>
+
+    <div ng-controller="myCtrl">
+      <input type="text" ng-model="name">
+      <!-- "ng-model="name"" response that the input will be bind to a name var in the scope object  -->
+      <p>Inside my scope.name: {{name}}</p>
+    </div>
   </body>
 </html>
